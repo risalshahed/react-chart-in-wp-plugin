@@ -31,6 +31,5 @@ function new_dashboard_widget_callback() {
   echo "<div id='new-dashboard-widget'></div>";
 }
 
-
 // 2.1 The Action Hook
 add_action( 'wp_dashboard_setup', 'new_dashboard_setup' );
